@@ -42,7 +42,7 @@ nav ul li a {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.7;
+  opacity: 0.5;
   z-index: 0;
 }
 .wrapper {
