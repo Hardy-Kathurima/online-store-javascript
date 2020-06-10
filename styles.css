@@ -30,6 +30,21 @@ nav ul li a {
   text-decoration: none;
 }
 
+.home-btn {
+  width: 200px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transition: 1s;
+
+}
+
+.home-btn:hover {
+  background-color: green;
+  transform: scale(1.3);
+  text-transform: uppercase;
+
+}
+
 .wrapper::after {
   content: "";
   display: block;
@@ -47,7 +62,7 @@ nav ul li a {
   position: relative;
 }
 
-.wrapper > * {
+.wrapper>* {
   z-index: 10;
   position: relative;
 }
@@ -72,9 +87,11 @@ nav ul li a {
 .image-wrapper {
   margin-top: 10px;
 }
+
 .image-container {
   margin: 0 auto;
 }
+
 .slider {
   text-align: center;
 }
