@@ -91,37 +91,7 @@ footer {
 }
 
 @media screen and (max-width: 475px) {
-  .wrapper::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.4;
-    z-index: 0;
-  }
-  .wrapper {
-    position: relative;
-    text-align: center;
-    color: white;
-    margin-bottom: 10px;
-  }
-  .centered {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    font-weight: bolder;
-    transform: translate(-25%, -25%);
-    z-index: 10;
-  }
   footer {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    margin-top: 20px;
-    text-align: center;
+    margin-top: 100px;
   }
 }
